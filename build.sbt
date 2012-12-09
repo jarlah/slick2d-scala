@@ -10,4 +10,4 @@ unmanagedBase <<= baseDirectory { base => base / "lib" }
 
 fork := true
 
-javaOptions += "-Djava.library.path=/home/tomasherman/workspace/slick2d-stuff/lib/native/linux"
+javaOptions += "-Djava.library.path=./lib/native/linux"
